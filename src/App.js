@@ -6,6 +6,7 @@ function App() {
   return (
     <Canvas className="canvas" camera >
       <color attach="background" args={['#131314']} ></color>
+      <mesh />
     </Canvas>
   );
 }
